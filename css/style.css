@@ -1,0 +1,78 @@
+body {
+  font-size: 0.12rem;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.header {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  box-sizing: border-box;
+  background-color: #000;
+  z-index: -1;
+  color: #fff; }
+  .header .fa-angle-left {
+    margin-right: 0.2rem; }
+  .header h1 {
+    display: inline-block;
+    font-size: 0.14rem;
+    font-weight: normal; }
+  .header .fa-chain {
+    line-height: 0.4rem;
+    float: right; }
+
+.section {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  box-sizing: border-box; }
+  .section .login {
+    width: 2.6rem;
+    border-radius: 0.1rem;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 3rem;
+    margin: auto;
+    text-align: center; }
+    .section .login .imgs {
+      padding-top: 0.4rem;
+      padding-left: 0.6rem;
+      padding-right: 0.6rem; }
+      .section .login .imgs img {
+        width: 100%; }
+    .section .login p {
+      margin-top: 0.05rem; }
+    .section .login .form p {
+      margin-right: 0.2rem;
+      margin-left: 0.2rem;
+      box-sizing: border-box;
+      border-bottom: 0.01rem solid #ccc;
+      position: relative;
+      margin-bottom: 0.2rem; }
+      .section .login .form p input {
+        height: 0.3rem;
+        border: none;
+        text-indent: 0.2rem; }
+      .section .login .form p label {
+        width: 0.2rem;
+        height: 0.3rem;
+        position: absolute;
+        left: 0.2rem;
+        top: 0; }
+        .section .login .form p label img {
+          width: 100%; }
+    .section .login button {
+      width: 84%;
+      margin-right: 0.2rem;
+      margin-left: 0.2rem;
+      box-sizing: border-box;
+      height: 0.3rem;
+      background-color: #0074d9;
+      color: #fff;
+      border: none;
+      border-radius: 0.05rem; }
+
+/*# sourceMappingURL=style.css.map */
